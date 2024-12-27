@@ -1,0 +1,28 @@
+.button-link {
+    width: 200px;
+    height: 50px;
+    background-color: #4A90E2; /* Changed to a vibrant blue */
+    margin-bottom: 20px;
+    padding: 10px; /* Reduced padding for better text fit */
+    border-radius: 8px; /* Increased border radius */
+    text-align: center;
+    display: flex; /* Use flexbox for better centering */
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Added more depth to shadow */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition effects */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.button-link:hover {
+    background-color: #357ABD; /* Darker blue on hover */
+    transform: translateY(-3px); /* Subtle lift effect on hover */
+}
+
+.button-link a {
+    text-decoration: none;
+    color: #FFFFFF; /* Keeping text white */
+    font-size: 16px; /* Adjust font size for better fit */
+    font-weight: bold; /* Added boldness */
+    line-height: 1; /* Ensure line-height is optimal for text fit */
+}

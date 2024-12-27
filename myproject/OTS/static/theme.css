@@ -1,0 +1,96 @@
+/* Global Styles */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Top Bar */
+.top {
+    height: 60px;
+    background: linear-gradient(90deg, #4A90E2, #50E3C2); /* Blue to teal gradient */
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.top .sitename {
+    font-size: 26px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.top .menu a {
+    color: #FFFFFF;
+    background-color: #4A90E2;
+    display: inline-block;
+    min-width: 70px;
+    margin-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.top .menu a:hover {
+    background-color: #50E3C2;
+    color: #4A90E2;
+}
+
+/* Content */
+.content {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F5F7FA; /* Light grey background */
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+table tr:nth-child(odd) {
+    background-color: #4A90E2; /* Blue for odd rows */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #50E3C2; /* Teal for even rows */
+    color: #333;
+}
+
+table tr:first-child {
+    background-color: #D0021B; /* Strong red for the header */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Special Span */
+span.special {
+    color: #4A90E2; /* Blue text */
+    font-weight: bold;
+    font-style: italic;
+    background-color: #F5F7FA; /* Light grey background */
+    padding: 2px 6px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,108 @@
+form {
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: #FFFAF3; /* Changed to a soft light beige */
+    display: table;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Added soft shadow for depth */
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px; /* Increased input height */
+    font-size: 20px; /* Slightly smaller for balance */
+    padding: 8px; /* Added padding for a better look */
+    border: 1px solid #4A90E2; /* Blue border */
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+input:focus {
+    outline: none;
+    border-color: #50E3C2; /* Teal border on focus */
+    box-shadow: 0 0 5px rgba(80, 227, 194, 0.5); /* Light glow on focus */
+}
+
+.question {
+    color: #D0021B; /* Changed to a strong red */
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold; /* Added boldness */
+}
+
+.options {
+    font-size: 20px; /* Slightly smaller for consistency */
+    color: #4A90E2; /* Changed to blue */
+}
+
+.options input {
+    display: inline-block;
+    width: auto;
+    height: 15px; /* Adjusted height */
+    margin-right: 10px; /* Added space between options */
+}
+.error-message {
+    color: #F64C72; /* Use a vibrant color to make it stand out */
+    background-color: #FFE6E6; /* Light background to make the text pop */
+    border: 1px solid #F64C72; /* Border color matching the text */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    padding: 10px; /* Some space around the text */
+    font-size: 18px; /* Slightly smaller than form text for differentiation */
+    margin-bottom: 20px; /* Space below the error message */
+    display: block; /* Ensure it appears as a block-level element */
+}
+.success-message {
+    color: #4CAF50; /* Green for success messages */
+    background-color: #E8F5E9; /* Light background to make the text pop */
+    border: 1px solid #4CAF50; /* Border color matching the text */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    padding: 10px; /* Some space around the text */
+    font-size: 18px; /* Slightly smaller than form text for differentiation */
+    margin-bottom: 20px; /* Space below the success message */
+    display: block; /* Ensure it appears as a block-level element */
+}
+/* Existing button styles (if any) */
+input[type="submit"], input[type="reset"] {
+    background-color: #4A90E2; /* Default background color */
+    color: white; /* Default text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for the buttons */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #357ABD; /* Darker background color on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+}
+
+/* Hover effect for reset button */
+input[type="reset"]:hover {
+    background-color: #D32F2F; /* Red background color on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+}
+/* Style for attractive links */
+.attractive-link {
+    display: inline-block;
+    text-decoration: none; /* Remove underline */
+    color: #4A90E2; /* Link color */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold text */
+    padding: 10px 15px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #4A90E2; /* Border matching the link color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effects */
+}
+
+/* Hover effect for attractive links */
+.attractive-link:hover {
+    background-color: #4A90E2; /* Background color on hover */
+    color: white; /* Text color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
